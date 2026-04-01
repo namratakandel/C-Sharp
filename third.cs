@@ -1,0 +1,37 @@
+using System;
+class Program
+{
+static void Main()
+{
+int a,b,c;
+Console.WriteLine("Enter first number");
+a= Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter second number");
+b= Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Enter third number");
+c= Convert.ToInt32(Console.ReadLine());
+if(a>b && a>c)
+{
+Console.WriteLine("Greater number is:" +a);
+}
+else if (b>a && b>c)
+{
+Console.WriteLine("Greater number is:" +b);
+}
+
+else
+{
+Console.WriteLine("Greater number is:" +c);
+
+}
+}
+}
+
+
+
+
+
+
+
